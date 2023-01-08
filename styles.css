@@ -22,3 +22,98 @@ body{
     align-items: center;
     justify-content: center;
 }
+p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: hsl(0, 0, 59%);
+}
+h1{
+    font-size: 1.375rem;
+}
+h2{
+    font-size: 1.25rem;
+}
+.container .card{
+    background-color: white;
+    border-radius: 0.625rem;
+}
+
+.container .card .background-image{
+    position: relative;
+    margin-bottom: 3.125;
+}
+
+.container .card .background-image img{
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+}
+
+.container .card .background-image .victor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container .card .background-image .victor img{
+    border-radius: 50%;
+    border: 0.3125rem solid white;
+}
+
+.container .card .info{
+    display: flex;
+    margin-top: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 0.3125rem;
+}
+.container .card .info h1{
+    font-size: 1.125rem;
+}
+
+.container .card .info p{
+    align-self: center;
+    font-size: 1.125rem;
+}
+
+.container .card .country{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.3125rem;
+}
+hr{
+    display: block;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: none;
+    width: 100%;
+    height: 0.0313rem;
+    background-color: rgb(180, 179, 179);
+}
+
+.container .card .channel-info{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1.825rem;
+}
+
+.container .card .channel-info .followers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3125rem;
+}
+
+.container .card .channel-info .likes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3125rem;
+}
+
+.container .card .channel-info .photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3125rem;
+}
